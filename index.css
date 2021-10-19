@@ -1,0 +1,149 @@
+.thenav,
+.thefoot {
+    background-color: black;
+}
+.thefoot {
+    color: #fff;
+    padding: 30px;
+}
+footer .social-links {
+    margin-top: 30px;
+  }
+footer .social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+footer .social-links a:hover {
+    color: red;
+}
+@media (max-width: 992px) {
+    .logo {
+        margin-left: 20px;
+    }
+  }
+.ctabtn {
+    border: 1px solid red;
+    border-radius: 12px;
+    padding: 10px;
+    color: red;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.ctabtn:hover {
+    background-color: red;
+    color: #fff;
+}
+.content-area {  
+    margin-top: 70px;
+}
+
+.theimage {
+    margin-left: 100px;
+}
+@media (max-width: 992px) {
+    .theimage {
+        margin-left: 30px;
+        box-sizing: border-box;
+    }
+  }
+.name {
+    animation-name: fadeBounce;
+    animation-duration: 7s;
+    color: red;
+}
+@keyframes fadeBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-300%);
+    }
+    40% {
+        transform: translateY(0);
+    }
+    55% {
+        transform: translateY(-6px);
+    }
+    70% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    85% {
+        transform: translateY(-3px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.about {
+    color: rgb(2, 2, 49);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+.main-area {
+    background-color: rgb(248, 248, 248);
+    margin-top: 40px;
+}
+.social-links {
+    margin-top: 30px;
+  }
+.social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: #15171a;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.social-links a:hover {
+    color: red;
+}
+.contact .info {
+    width: 100%;
+    background: #fff;
+  }
+  .contact .info i {
+    font-size: 20px;
+    color: #0d244d;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #eef7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #45505b;
+  }
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #728394;
+  }
+  .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
+  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: red;
+    color: #fff;
+  }
+  .work {
+      color: rgb(2, 2, 49);
+      font-family: sans-serif;
+  }
