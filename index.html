@@ -1,21 +1,3 @@
-<?php
-$name = $_REQUEST['name'];
-$email = $_REQUEST['email'];
-$message = $_REQUEST['message'];
-$subject = $_REQUEST['subject'];
-
-$to = "fumex9910@gmail.com";
-$sender = "demo@codesandbox.com.ng";
-
-$subject = "Mail From:" .$email;
-
-$text = "Name =" .$name . "\r\n Email =" .$email . "\r\n Message =". $message ."r\n Subject =" .$subject;
-
-if($email != NULL) {
-    mail($to, $sender, $subject, $text);
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
