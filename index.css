@@ -1,6 +1,6 @@
 .thenav,
 .thefoot {
-    background-color: black;
+    background-color: #363535;
 }
 .thenav {
     font-family: 'Creepster', cursive;
@@ -265,3 +265,76 @@ img {
 .skill-title {
     font-size: 50px;
 }
+.skills {
+    background-image: url(img/sky.jpeg);
+    background-blend-mode: overlay;
+    background-color: #15171a;
+}
+.x-container:hover {
+    animation: none;
+    transform: translateZ(100px);
+
+}
+.x-container {
+    position: relative;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    animation: rotation 15s infinite linear;
+  }
+  
+  .x-box {
+    position: absolute;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotateY(0deg);
+    }
+    75% {
+      transform: rotateX(360deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+  }
+  
+.x-box:nth-child(1) {
+    transform: rotateY(0deg) translateZ(100px);
+  }
+  
+.x-box:nth-child(2) {
+    transform: rotateY(72deg) translateZ(100px);
+  }
+  
+.x-box:nth-child(3) {
+    transform: rotateY(144deg) translateZ(100px);
+  }
+  
+.x-box:nth-child(4) {
+    transform: rotateY(216deg) translateZ(100px);
+  }
+.x-box:nth-child(2):hover,
+.x-box:nth-child(3):hover,
+.x-box:nth-child(4):hover {
+    transform: translateZ(100px);
+}
+
+
+.slide-text {
+    animation: slide 5s infinite;
+    white-space: wrap;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: rotateX(0deg);
+    }
+    75% {
+        transform: rotateX(360deg);
+    }
+    100% {
+      transform: rotateX(0deg);
+    }
+  }
+  
+
