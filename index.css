@@ -81,9 +81,9 @@ img {
         box-sizing: border-box;
     }
   }
-.name {
-    animation-name: fadeBounce;
-    animation-duration: 7s;
+.the_name {
+    /* animation: typewriter 4s steps(15) 1s infinite both, 
+                    blinkCursor 500ms steps(15) infinite; */
     color: red;
 }
 @keyframes fadeBounce {
@@ -370,9 +370,27 @@ img {
     75% {
         transform: rotateX(360deg);
     }
+    85% {
+        transform: rotateZ(360deg);
+    }
     100% {
       transform: rotateX(0deg);
     }
   }
   
-
+/* @keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70px
+    }
+}
+@keyframes blinkCursor {
+    from {
+        border-right-color: black;
+    }
+    to {
+        border-right-color: transparent;
+    }
+} */
