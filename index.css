@@ -286,6 +286,9 @@ img {
     transform-style: preserve-3d;
     animation: animate 20s linear infinite;
   }
+.box:hover {
+    animation-play-state: paused;
+}
   
 .box span {
     position: absolute;
@@ -296,6 +299,10 @@ img {
     transform-origin: center;
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i)* 80deg)) translateZ(300px);
+}
+.box span:hover {
+    transform: scale(1.5) rotateY(calc(var(--i)* 80deg)) translateZ(300px);
+    transform-style: flat;
 }
 @media (max-width: 992px) {
     .box span {
